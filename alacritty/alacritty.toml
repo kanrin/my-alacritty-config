@@ -1,0 +1,39 @@
+import = ["./themes/one_dark.toml"] # you can change theme
+live_config_reload = true
+working_directory = "None"
+# shell = "powershell"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+title = "Alacritty"
+opacity = 0.8
+blur = true
+startup_mode = "Maximized"
+dynamic_title = false
+decorations_theme_variant = "Dark"
+
+[scrolling]
+history = 90000
+multiplier = 5
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>@\t"
+save_to_clipboard = true
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+bold = { family = "CaskaydiaCove Nerd Font Mono", style = "Bold" }
+italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "CaskaydiaCove Nerd Font Mono", style = "Bold Italic" }
+size = 10
+
+[cursor]
+style = { shape  = "Block", blinking = "Never"}
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+bindings = [{ mouse = "Right", action = "Paste" }]
