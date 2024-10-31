@@ -1,5 +1,7 @@
-# import = ["~/AppData/Roaming/alacritty/themes/one_dark.toml"] # you can change theme this is windows config
-import = ["~/.config/alacritty/themes/one_dark.toml"] # you can change theme this is *inx config
+import = [
+  "~/AppData/Roaming/alacritty/themes/one_dark.toml", # this is windows theme
+  "~/.config/alacritty/themes/one_dark.toml"
+]
 live_config_reload = true
 working_directory = "None"
 # shell = "powershell"
