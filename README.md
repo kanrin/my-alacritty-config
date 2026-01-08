@@ -19,6 +19,6 @@ git clone https://github.com/kanrin/my-alacritty-config.git %APPDATA%\alacritty
 ## Enjoy!
 - default theme is onedark
 - Thanks [alacritty-theme](https://github.com/eendroroy/alacritty-theme)
-- works like pytty
+- works like putty
     - select copy to clipboard
     - right click to prase
