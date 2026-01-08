@@ -6,7 +6,7 @@
 - [Alacritty](https://alacritty.org/index.html)
 ### MacOS/Linux
 ```bash
-git clone https://github.com/kanrin/my-alacritty-config.git ~/.config/alacritty
+git clone https://github.com/kanrin/my-alacritty-config.git $HOME/.config/alacritty
 ```
 ### Windows
 ```cmd
